@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProEdu - Course Selling Website</title>
+    <!-- bootstrap CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- coustom css link  -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- font awesome script  -->
+    <script src="https://kit.fontawesome.com/ec5aa370d8.js" crossorigin="anonymous"></script>
+    <!-- Google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
+</head>
+
+<body>
+    <!-- Header area start -->
+    <header class="mb-0 sticky-top bg-white shadow">
+        <!-- navigation area start -->
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand mt-lg-0 fs-1 fw-bold" href="#">Pro Edu</a>
+                <button class="btn btn-outline-primary px-5 ms-auto d-none d-md-block d-lg-none"
+                    type="submit">Login</button>
+                <button class="btn btn-outline-primary px-5 ms-2 me-2 d-none d-md-block d-lg-none"
+                    type="submit">Register</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="w-100">
+                        <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active pe-lg-4" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-4" href="#courses">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-4" href="#deals">Deals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-4" href="#success">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-lg-4" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-lg-4" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center gap-2">
+                        <button onclick="location.href='login.html'"
+                            class="btn btn-outline-primary text-white bg-primary px-5 d-md-none d-lg-block"
+                            type="submit">Login</button>
+                        <button class="btn btn-outline-primary px-5 d-md-none d-lg-block"
+                            type="submit">Register</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation area end -->
+    </header>
+    <!-- Header area start end-->
+
+    <!-- login area start  -->
+    <div class="content my-4 my-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-2 mb-md-4 mb-lg-0">
+                    <img src="images/login/undraw_remotely_2j6y.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-lg-6 contents">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="mb-4">
+                                <h3 class="fw-bold">Sign In</h3>
+                                <p class="mb-4 text-secondary">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos
+                                    consectetur
+                                    adipisicing.</p>
+                            </div>
+                            <form action="#" method="post">
+                                <div class="form-group first mb-2">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username">
+                                </div>
+                                <div class="form-group last mb-3">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="d-flex mb-3 justify-content-between align-items-center">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31"
+                                            checked />
+                                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                                    </div>
+                                    <span class="ml-auto"><a href="#" class="forgot-pass text-decoration-none">Forgot
+                                            Password</a></span>
+                                </div>
+
+                                <input type="submit" value="Log In" class="btn btn-block btn-primary w-100">
+                                <span class="d-block text-left my-4 text-muted">&mdash; or login with &mdash;</span>
+                                <button class="btn btn-outline-primary w-100 mb-1"><i
+                                        class="fab fa-facebook-f me-2"></i>Login With Facebook</button>
+                                <button class="btn btn-outline-info w-100 mb-1"><i class="fab fa-twitter me-2"></i>Login
+                                    With Twitter</button>
+                                <button class="btn btn-outline-danger w-100 mb-1"><i
+                                        class="fab fa-google me-2"></i>Login With Google</button>
+                                <div class="social-login">
+                                    <a href="#" class="facebook">
+                                        <span class="icon-facebook mr-3"></span>
+                                    </a>
+                                    <a href="#" class="twitter">
+                                        <span class="icon-twitter mr-3"></span>
+                                    </a>
+                                    <a href="#" class="google">
+                                        <span class="icon-google mr-3"></span>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login area end  -->
+
+    <!-- footer area start  -->
+    <section class="d-flex justify-content-between p-4 bg-primary bg-opacity-25">
+        <div class="me-5">
+            <span>Get connected with us on social networks</span>
+        </div>
+        <div>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-facebook-f text-primary"></i>
+            </a>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-twitter text-primary"></i>
+            </a>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-google text-primary"></i>
+            </a>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-instagram text-primary"></i>
+            </a>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-linkedin text-primary"></i>
+            </a>
+            <a href="" class="text-white me-4 text-decoration-none">
+                <i class="fab fa-github text-primary"></i>
+            </a>
+        </div>
+    </section>
+    <footer class="text-center text-lg-start text-white bg-dark pt-1">
+        <section class="bg-dark">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <a class="navbar-brand mt-lg-0 fs-1 fw-bold" href="#">Pro Edu</a>
+                        <h6 class="me-0 pe-0"></h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            Online live skill development platform. Where you can develop your skills according to your
+                            needs and interests.
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Company</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Career</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Privacy Policy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Refund Policy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Free Download</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white text-decoration-none">Help</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p><i class="fas fa-home mr-3"></i> Mirpur, Dhaka, Bangladesh</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@proedu.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 017 149 407 00</p>
+                        <p><i class="fas fa-print mr-3"></i> + 017 149 407 00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-3 bg-black bg-opacity-25">
+            ©
+            <script>document.write(new Date().getFullYear());</script> Copyright
+            <a class="text-white text-decoration-none fw-bold" href="/">ProEdu</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
